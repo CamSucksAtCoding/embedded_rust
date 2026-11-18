@@ -1,0 +1,1 @@
+/home/dante/embedded_rust/char_and_unicode_representation/target/debug/char_and_unicode_representatiin: /home/dante/embedded_rust/char_and_unicode_representation/src/main.rs
