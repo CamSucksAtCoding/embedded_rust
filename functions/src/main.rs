@@ -9,18 +9,19 @@ fn combine_strings(str1: &str, str2: &str) -> String {
     println!("{combined_string}");
     combined_string
 }
-fn find_largest_string(str1: &str, str2: &str) -> &str {
-    if str1.len() > str2.len() {
-        println!("String 1 is larger");
-        str1
-    } else if str1.len() == str2.len() {
-        println!("The string are the same size");
-        str1
-    } else {
-        println!("String 2 is larger");
-        str2
-    }
-}
+//Comeback after learning liftime specifiers
+// fn find_largest_string(str1: &str, str2: &str) -> &'a str {
+//     if str1.len() > str2.len() {
+//         println!("String 1 is larger");
+//         str1
+//     } else if str1.len() == str2.len() {
+//         println!("The string are the same size");
+//         str1
+//     } else {
+//         println!("String 2 is larger");
+//         str2
+//     }
+// }
 fn main() {
     convert_kg_to_grams(5.0);
     combine_strings("Hey", "Dude");
