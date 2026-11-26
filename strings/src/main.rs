@@ -2,7 +2,7 @@ fn main() {
     let my_name: String = String::from("Malum Caedo"); // this is a String
 
     //this is a String type, which is used when the length of the string is unknown at compile time
-    let mut showers_taken_this_year = String::from("I have take 3 showers this year");
+    let mut showers_taken_this_year = String::from("I have taken 3 showers this year");
     println!("{showers_taken_this_year}... I'm tellling the truth");
     showers_taken_this_year.replace_range(12..13, "0");
     println!("Ok fine...{showers_taken_this_year}");
